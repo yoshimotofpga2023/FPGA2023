@@ -1,0 +1,18 @@
+|downEdge
+Q2 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst14.CLK
+CLK => inst13.CLK
+key2 => inst.IN0
+key0 => inst.IN1
+key1 => inst.IN2
+key3 => inst.IN3
+key4 => inst.IN4
+key5 => inst.IN5
+key6 => inst1.IN0
+key7 => inst1.IN1
+key8 => inst1.IN2
+key9 => inst1.IN3
+Q1 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+down <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
