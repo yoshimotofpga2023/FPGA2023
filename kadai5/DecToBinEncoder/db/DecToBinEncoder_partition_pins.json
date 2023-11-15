@@ -20,15 +20,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "t0",
-					"strict" : false
-				},
-				{
 					"name" : "t8",
 					"strict" : false
 				},
 				{
 					"name" : "t9",
+					"strict" : false
+				},
+				{
+					"name" : "t0",
 					"strict" : false
 				},
 				{

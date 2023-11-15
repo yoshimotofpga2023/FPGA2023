@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Nov 15 23:47:08 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : BinToSegDecoder
+Top-level Entity Name : BinToSegDecoder
+Family : Cyclone 10 LP
+Device : 10CL025YU256I7G
+Timing Models : Final
+Total logic elements : 7 / 24,624 ( < 1 % )
+    Total combinational functions : 7 / 24,624 ( < 1 % )
+    Dedicated logic registers : 0 / 24,624 ( 0 % )
+Total registers : 0
+Total pins : 11 / 151 ( 7 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

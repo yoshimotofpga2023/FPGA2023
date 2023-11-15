@@ -1,0 +1,84 @@
+# Reading pref.tcl
+# do DecToBinEncoder_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {DecToBinEncoder.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:16:57 on Nov 16,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." DecToBinEncoder.vo 
+# -- Compiling module DecToBinEncoder
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	DecToBinEncoder
+# End time: 00:16:58 on Nov 16,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/share_desktop/fpga/FPGA2023/kadai5/DecToBinEncoder/simulation/modelsim {/share_desktop/fpga/FPGA2023/kadai5/DecToBinEncoder/simulation/modelsim/DecToBinEncoder.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:16:58 on Nov 16,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/share_desktop/fpga/FPGA2023/kadai5/DecToBinEncoder/simulation/modelsim" /share_desktop/fpga/FPGA2023/kadai5/DecToBinEncoder/simulation/modelsim/DecToBinEncoder.vt 
+# -- Compiling module DecToBinEncoder_vlg_tst
+# 
+# Top level modules:
+# 	DecToBinEncoder_vlg_tst
+# End time: 00:16:59 on Nov 16,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs="+acc"  test1
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=""+acc"" test1 
+# Start time: 00:16:59 on Nov 16,2023
+# ** Error: (vsim-3170) Could not find 'test1'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclone10lp
+#             //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai5/DecToBinEncoder/simulation/modelsim/gate_work
+#             //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai5/DecToBinEncoder/simulation/modelsim/gate_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./DecToBinEncoder_run_msim_gate_verilog.do PAUSED at line 12
+vlog -vlog01compat -work work +incdir+/share_desktop/fpga/FPGA2023/kadai5/DecToBinEncoder/simulation/modelsim ///share_desktop/fpga/FPGA2023/kadai5/DecToBinEncoder/simulation/modelsim/DecToBinEncoder.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:19:15 on Nov 16,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/share_desktop/fpga/FPGA2023/kadai5/DecToBinEncoder/simulation/modelsim" ///share_desktop/fpga/FPGA2023/kadai5/DecToBinEncoder/simulation/modelsim/DecToBinEncoder.vt 
+# ** Error: (vlog-7) Failed to open design unit file "///share_desktop/fpga/FPGA2023/kadai5/DecToBinEncoder/simulation/modelsim/DecToBinEncoder.vt" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 00:19:15 on Nov 16,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=\"+acc\" gate_work.DecToBinEncoder_vlg_tst
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=""+acc"" gate_work.DecToBinEncoder_vlg_tst 
+# Start time: 00:16:59 on Nov 16,2023
+# Loading work.DecToBinEncoder_vlg_tst
+# Loading work.DecToBinEncoder
+# Loading work.hard_block
+# Loading cyclone10lp_ver.cyclone10lp_io_obuf
+# Loading cyclone10lp_ver.cyclone10lp_io_ibuf
+# Loading cyclone10lp_ver.cyclone10lp_lcell_comb
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/t0
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/t1
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/t2
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/t3
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/t4
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/t5
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/t6
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/t7
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/t8
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/t9
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/Abin
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/Bbin
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/Cbin
+add wave -position end  sim:/DecToBinEncoder_vlg_tst/Dbin
+run -all
+# Running testbench
+# End time: 00:28:07 on Nov 16,2023, Elapsed time: 0:11:08
+# Errors: 1, Warnings: 0

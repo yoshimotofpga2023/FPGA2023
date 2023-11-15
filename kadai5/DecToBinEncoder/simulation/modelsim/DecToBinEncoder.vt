@@ -1,0 +1,249 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "11/16/2023 00:01:34"
+                                                                                
+// Verilog Test Bench template for design : DecToBinEncoder
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ps/ 1 ps
+module DecToBinEncoder_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg t0;
+reg t1;
+reg t2;
+reg t3;
+reg t4;
+reg t5;
+reg t6;
+reg t7;
+reg t8;
+reg t9;
+// wires                                               
+wire Abin;
+wire Bbin;
+wire Cbin;
+wire Dbin;
+
+// assign statements (if any)                          
+DecToBinEncoder i1 (
+// port map - connection between master ports and signals/registers   
+	.Abin(Abin),
+	.Bbin(Bbin),
+	.Cbin(Cbin),
+	.Dbin(Dbin),
+	.t0(t0),
+	.t1(t1),
+	.t2(t2),
+	.t3(t3),
+	.t4(t4),
+	.t5(t5),
+	.t6(t6),
+	.t7(t7),
+	.t8(t8),
+	.t9(t9)
+);
+initial                                                
+begin                                                  
+// code that executes only once                        
+// insert code here --> begin                          
+                                                       
+// --> end                                             
+$display("Running testbench");                       
+end                                                    
+always                                                 
+// optional sensitivity list                           
+// @(event1 or event2 or .... eventn)                  
+begin                                                  
+// code executes for every event on sensitivity list   
+// insert code here --> begin                          
+  
+#100                                                     
+t0 <= 0;
+t1 <= 0;
+t2 <= 0;
+t3 <= 0;
+t4 <= 0;
+t5 <= 0;
+t6 <= 0;
+t7 <= 0;
+t8 <= 0;
+t9 <= 0;
+
+#100
+t0 <= 1;
+
+#100                                                     
+t0 <= 0;
+t1 <= 0;
+t2 <= 0;
+t3 <= 0;
+t4 <= 0;
+t5 <= 0;
+t6 <= 0;
+t7 <= 0;
+t8 <= 0;
+t9 <= 0;
+
+#100
+t1 <= 1;
+
+#100                                                     
+t0 <= 0;
+t1 <= 0;
+t2 <= 0;
+t3 <= 0;
+t4 <= 0;
+t5 <= 0;
+t6 <= 0;
+t7 <= 0;
+t8 <= 0;
+t9 <= 0;
+
+#100
+t2 <= 1;
+
+#100                                                     
+t0 <= 0;
+t1 <= 0;
+t2 <= 0;
+t3 <= 0;
+t4 <= 0;
+t5 <= 0;
+t6 <= 0;
+t7 <= 0;
+t8 <= 0;
+t9 <= 0;
+
+#100
+t3 <= 1;
+
+#100                                                     
+t0 <= 0;
+t1 <= 0;
+t2 <= 0;
+t3 <= 0;
+t4 <= 0;
+t5 <= 0;
+t6 <= 0;
+t7 <= 0;
+t8 <= 0;
+t9 <= 0;
+
+#100
+t4 <= 1;
+
+#100                                                     
+t0 <= 0;
+t1 <= 0;
+t2 <= 0;
+t3 <= 0;
+t4 <= 0;
+t5 <= 0;
+t6 <= 0;
+t7 <= 0;
+t8 <= 0;
+t9 <= 0;
+
+#100
+t5 <= 1;
+
+#100                                                     
+t0 <= 0;
+t1 <= 0;
+t2 <= 0;
+t3 <= 0;
+t4 <= 0;
+t5 <= 0;
+t6 <= 0;
+t7 <= 0;
+t8 <= 0;
+t9 <= 0;
+
+#100
+
+t6 <= 0;
+
+#100                                                     
+t0 <= 0;
+t1 <= 0;
+t2 <= 0;
+t3 <= 0;
+t4 <= 0;
+t5 <= 0;
+t6 <= 0;
+t7 <= 0;
+t8 <= 0;
+t9 <= 0;
+
+#100
+t7 <= 1;
+
+#100                                                     
+t0 <= 0;
+t1 <= 0;
+t2 <= 0;
+t3 <= 0;
+t4 <= 0;
+t5 <= 0;
+t6 <= 0;
+t7 <= 0;
+t8 <= 0;
+t9 <= 0;
+
+#100
+t8 <= 1;
+#100                                                     
+t0 <= 0;
+t1 <= 0;
+t2 <= 0;
+t3 <= 0;
+t4 <= 0;
+t5 <= 0;
+t6 <= 0;
+t7 <= 0;
+t8 <= 0;
+t9 <= 0;
+
+#100
+t9 <= 1;
+
+#100                                                     
+t0 <= 0;
+t1 <= 0;
+t2 <= 0;
+t3 <= 0;
+t4 <= 0;
+t5 <= 0;
+t6 <= 0;
+t7 <= 0;
+t8 <= 0;
+t9 <= 0;
+
+
+// --> end                                             
+end                                                    
+endmodule
+
