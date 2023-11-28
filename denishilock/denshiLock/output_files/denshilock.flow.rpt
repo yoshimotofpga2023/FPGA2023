@@ -1,5 +1,5 @@
 Flow report for denshilock
-Tue Nov 28 16:34:19 2023
+Wed Nov 29 01:19:01 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,10 +41,10 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Nov 28 16:34:19 2023       ;
+; Flow Status                        ; Successful - Wed Nov 29 01:19:01 2023       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; denshilock                                  ;
-; Top-level Entity Name              ; angoRegister                                ;
+; Top-level Entity Name              ; bangoRegister                               ;
 ; Family                             ; Cyclone 10 LP                               ;
 ; Device                             ; 10CL025YU256I7G                             ;
 ; Timing Models                      ; Final                                       ;
@@ -65,36 +65,36 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/28/2023 16:33:54 ;
+; Start date & time ; 11/29/2023 01:18:44 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; denshilock          ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                ;
-+-------------------------------------+----------------------------------------+---------------+--------------+-----------------------------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name  ; Section Id                        ;
-+-------------------------------------+----------------------------------------+---------------+--------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 167304654621919.170115683400808        ; --            ; --           ; --                                ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_timing           ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_boundary_scan    ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_signal_integrity ;
-; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --           ; eda_board_design_symbol           ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --           ; eda_simulation                    ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --           ; --                                ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --           ; eda_simulation                    ;
-; MAX_CORE_JUNCTION_TEMP              ; 100                                    ; --            ; --           ; --                                ;
-; MIN_CORE_JUNCTION_TEMP              ; -40                                    ; --            ; --           ; --                                ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --           ; --                                ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; angoRegister ; Top                               ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; angoRegister ; Top                               ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; angoRegister ; Top                               ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --           ; --                                ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --           ; --                                ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --           ; --                                ;
-; TOP_LEVEL_ENTITY                    ; angoRegister                           ; denshilock    ; --           ; --                                ;
-+-------------------------------------+----------------------------------------+---------------+--------------+-----------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                 ;
++-------------------------------------+----------------------------------------+---------------+---------------+-----------------------------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name   ; Section Id                        ;
++-------------------------------------+----------------------------------------+---------------+---------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID               ; 52238938451.170118832302572            ; --            ; --            ; --                                ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --            ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --            ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --            ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --            ; --            ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --            ; eda_simulation                    ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --            ; --                                ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --            ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP              ; 100                                    ; --            ; --            ; --                                ;
+; MIN_CORE_JUNCTION_TEMP              ; -40                                    ; --            ; --            ; --                                ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --            ; --                                ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; bangoRegister ; Top                               ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; bangoRegister ; Top                               ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; bangoRegister ; Top                               ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --            ; --                                ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --            ; --                                ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --            ; --                                ;
+; TOP_LEVEL_ENTITY                    ; bangoRegister                          ; denshilock    ; --            ; --                                ;
++-------------------------------------+----------------------------------------+---------------+---------------+-----------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------+
@@ -102,8 +102,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:26     ; 1.0                     ; 4699 MB             ; 00:00:35                           ;
-; Total                  ; 00:00:26     ; --                      ; --                  ; 00:00:35                           ;
+; Analysis & Elaboration ; 00:00:18     ; 1.0                     ; 4717 MB             ; 00:00:26                           ;
+; Total                  ; 00:00:18     ; --                      ; --                  ; 00:00:26                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Successful - Tue Nov 28 16:34:19 2023
+Analysis & Elaboration Status : Successful - Wed Nov 29 01:19:01 2023
 Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : denshilock
-Top-level Entity Name : angoRegister
+Top-level Entity Name : bangoRegister
 Family : Cyclone 10 LP
 Total logic elements : N/A until Partition Merge
     Total combinational functions : N/A until Partition Merge

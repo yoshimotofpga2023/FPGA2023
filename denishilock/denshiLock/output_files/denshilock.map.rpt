@@ -1,5 +1,5 @@
 Analysis & Elaboration report for denshilock
-Tue Nov 28 16:34:19 2023
+Wed Nov 29 01:19:01 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -37,10 +37,10 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Tue Nov 28 16:34:19 2023       ;
+; Analysis & Elaboration Status      ; Successful - Wed Nov 29 01:19:01 2023       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; denshilock                                  ;
-; Top-level Entity Name              ; angoRegister                                ;
+; Top-level Entity Name              ; bangoRegister                               ;
 ; Family                             ; Cyclone 10 LP                               ;
 ; Total logic elements               ; N/A until Partition Merge                   ;
 ;     Total combinational functions  ; N/A until Partition Merge                   ;
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                           ; 10CL025YU256I7G    ;                    ;
-; Top-level entity name                                            ; angoRegister       ; denshilock         ;
+; Top-level entity name                                            ; bangoRegister      ; denshilock         ;
 ; Family name                                                      ; Cyclone 10 LP      ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -162,7 +162,7 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Nov 28 16:33:53 2023
+    Info: Processing started: Wed Nov 29 01:18:43 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off denshilock -c denshilock --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -184,11 +184,15 @@ Info (12021): Found 1 design units, including 1 entities, in source file 10bunsh
     Info (12023): Found entity 1: 10bunshu
 Info (12021): Found 1 design units, including 1 entities, in source file statemachine.bdf
     Info (12023): Found entity 1: stateMachine
-Info (12127): Elaborating entity "angoRegister" for the top level hierarchy
+Info (12021): Found 1 design units, including 1 entities, in source file bun60hz.bdf
+    Info (12023): Found entity 1: bun60hz
+Info (12021): Found 1 design units, including 1 entities, in source file denshilock.bdf
+    Info (12023): Found entity 1: denshilock
+Info (12127): Elaborating entity "bangoRegister" for the top level hierarchy
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4699 megabytes
-    Info: Processing ended: Tue Nov 28 16:34:19 2023
-    Info: Elapsed time: 00:00:26
-    Info: Total CPU time (on all processors): 00:00:35
+    Info: Peak virtual memory: 4717 megabytes
+    Info: Processing ended: Wed Nov 29 01:19:01 2023
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:26
 
 
