@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "OUTPass[15]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[14]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[13]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[12]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[11]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[10]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[9]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[8]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[7]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[6]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[5]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[4]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[3]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[2]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[1]",
+					"strict" : false
+				},
+				{
+					"name" : "OUTPass[0]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[15]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "EN",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[14]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[13]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[12]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[11]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[10]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[9]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[8]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[7]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[6]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[5]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[4]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[3]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[2]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[1]",
+					"strict" : false
+				},
+				{
+					"name" : "INRes[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
