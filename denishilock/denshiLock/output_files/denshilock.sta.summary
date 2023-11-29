@@ -1,0 +1,281 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 100C Model Setup 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : -2.352
+TNS   : -65.608
+
+Type  : Slow 1200mV 100C Model Setup 'bun60hz:inst17|10bunshu:inst2|inst7'
+Slack : -0.855
+TNS   : -0.855
+
+Type  : Slow 1200mV 100C Model Setup 'bun60hz:inst17|10bunshu:inst|inst7'
+Slack : -0.784
+TNS   : -0.784
+
+Type  : Slow 1200mV 100C Model Setup 'CLK'
+Slack : -0.751
+TNS   : -0.751
+
+Type  : Slow 1200mV 100C Model Setup 'bun60hz:inst17|6bushu:inst1|inst2'
+Slack : -0.727
+TNS   : -0.727
+
+Type  : Slow 1200mV 100C Model Setup 'bun60hz:inst17|10bunshu:inst4|inst7'
+Slack : -0.663
+TNS   : -0.663
+
+Type  : Slow 1200mV 100C Model Setup 'bun60hz:inst17|10bunshu:inst3|inst7'
+Slack : -0.637
+TNS   : -0.637
+
+Type  : Slow 1200mV 100C Model Hold 'bun60hz:inst17|10bunshu:inst4|inst7'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'CLK'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'bun60hz:inst17|10bunshu:inst2|inst7'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'bun60hz:inst17|10bunshu:inst|inst7'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'bun60hz:inst17|6bushu:inst1|inst2'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'bun60hz:inst17|10bunshu:inst3|inst7'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Hold 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : 0.463
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Recovery 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : -1.473
+TNS   : -18.198
+
+Type  : Slow 1200mV 100C Model Removal 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : 1.584
+TNS   : 0.000
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -6.855
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : -1.285
+TNS   : -53.970
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst2|inst7'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst3|inst7'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst4|inst7'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst|inst7'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 100C Model Minimum Pulse Width 'bun60hz:inst17|6bushu:inst1|inst2'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV -40C Model Setup 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : -1.962
+TNS   : -54.289
+
+Type  : Slow 1200mV -40C Model Setup 'bun60hz:inst17|10bunshu:inst2|inst7'
+Slack : -0.742
+TNS   : -0.742
+
+Type  : Slow 1200mV -40C Model Setup 'bun60hz:inst17|10bunshu:inst|inst7'
+Slack : -0.669
+TNS   : -0.669
+
+Type  : Slow 1200mV -40C Model Setup 'CLK'
+Slack : -0.627
+TNS   : -0.627
+
+Type  : Slow 1200mV -40C Model Setup 'bun60hz:inst17|6bushu:inst1|inst2'
+Slack : -0.608
+TNS   : -0.608
+
+Type  : Slow 1200mV -40C Model Setup 'bun60hz:inst17|10bunshu:inst3|inst7'
+Slack : -0.578
+TNS   : -0.578
+
+Type  : Slow 1200mV -40C Model Setup 'bun60hz:inst17|10bunshu:inst4|inst7'
+Slack : -0.571
+TNS   : -0.571
+
+Type  : Slow 1200mV -40C Model Hold 'bun60hz:inst17|10bunshu:inst|inst7'
+Slack : 0.396
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'CLK'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'bun60hz:inst17|10bunshu:inst3|inst7'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'bun60hz:inst17|10bunshu:inst4|inst7'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'bun60hz:inst17|6bushu:inst1|inst2'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'bun60hz:inst17|10bunshu:inst2|inst7'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : 0.416
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Recovery 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : -1.173
+TNS   : -13.623
+
+Type  : Slow 1200mV -40C Model Removal 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : 1.398
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -6.855
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : -1.285
+TNS   : -53.970
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst2|inst7'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst3|inst7'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst4|inst7'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst|inst7'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|6bushu:inst1|inst2'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Fast 1200mV -40C Model Setup 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : -0.551
+TNS   : -10.443
+
+Type  : Fast 1200mV -40C Model Setup 'bun60hz:inst17|10bunshu:inst|inst7'
+Slack : -0.112
+TNS   : -0.112
+
+Type  : Fast 1200mV -40C Model Setup 'bun60hz:inst17|10bunshu:inst2|inst7'
+Slack : -0.105
+TNS   : -0.105
+
+Type  : Fast 1200mV -40C Model Setup 'CLK'
+Slack : -0.093
+TNS   : -0.093
+
+Type  : Fast 1200mV -40C Model Setup 'bun60hz:inst17|10bunshu:inst4|inst7'
+Slack : -0.078
+TNS   : -0.078
+
+Type  : Fast 1200mV -40C Model Setup 'bun60hz:inst17|6bushu:inst1|inst2'
+Slack : -0.064
+TNS   : -0.064
+
+Type  : Fast 1200mV -40C Model Setup 'bun60hz:inst17|10bunshu:inst3|inst7'
+Slack : -0.028
+TNS   : -0.028
+
+Type  : Fast 1200mV -40C Model Hold 'CLK'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'bun60hz:inst17|10bunshu:inst2|inst7'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'bun60hz:inst17|10bunshu:inst3|inst7'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'bun60hz:inst17|10bunshu:inst4|inst7'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'bun60hz:inst17|10bunshu:inst|inst7'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'bun60hz:inst17|6bushu:inst1|inst2'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Recovery 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : -0.144
+TNS   : -0.144
+
+Type  : Fast 1200mV -40C Model Removal 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : 0.710
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -6.216
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst5|inst7'
+Slack : -1.000
+TNS   : -42.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst2|inst7'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst3|inst7'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst4|inst7'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|10bunshu:inst|inst7'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'bun60hz:inst17|6bushu:inst1|inst2'
+Slack : -1.000
+TNS   : -5.000
+
+------------------------------------------------------------

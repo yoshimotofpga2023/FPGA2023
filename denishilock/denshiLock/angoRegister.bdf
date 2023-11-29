@@ -69,6 +69,22 @@ https://fpgasoftware.intel.com/eula.
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
 )
 (pin
+	(input)
+	(rect 8 176 176 192)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "resb" (rect 5 0 27 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
 	(output)
 	(rect 1136 32 1312 48)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
@@ -1571,6 +1587,155 @@ https://fpgasoftware.intel.com/eula.
 	(pt 176 48)
 	(pt 280 48)
 	(bus)
+)
+(connector
+	(text "resb" (rect 186 168 206 185)(font "Intel Clear" ))
+	(pt 176 184)
+	(pt 288 184)
+)
+(connector
+	(pt 320 320)
+	(pt 320 296)
+)
+(connector
+	(text "resb" (rect 266 280 286 297)(font "Intel Clear" ))
+	(pt 320 296)
+	(pt 256 296)
+)
+(connector
+	(pt 320 480)
+	(pt 320 456)
+)
+(connector
+	(text "resb" (rect 282 440 302 457)(font "Intel Clear" ))
+	(pt 320 456)
+	(pt 272 456)
+)
+(connector
+	(pt 320 672)
+	(pt 320 656)
+)
+(connector
+	(text "resb" (rect 282 640 302 657)(font "Intel Clear" ))
+	(pt 320 656)
+	(pt 272 656)
+)
+(connector
+	(pt 320 872)
+	(pt 320 848)
+)
+(connector
+	(text "resb" (rect 282 832 302 849)(font "Intel Clear" ))
+	(pt 320 848)
+	(pt 272 848)
+)
+(connector
+	(pt 568 872)
+	(pt 568 848)
+)
+(connector
+	(text "resb" (rect 522 832 542 849)(font "Intel Clear" ))
+	(pt 568 848)
+	(pt 512 848)
+)
+(connector
+	(pt 568 672)
+	(pt 568 656)
+)
+(connector
+	(text "resb" (rect 522 640 542 657)(font "Intel Clear" ))
+	(pt 568 656)
+	(pt 512 656)
+)
+(connector
+	(pt 568 480)
+	(pt 568 456)
+)
+(connector
+	(text "resb" (rect 522 440 542 457)(font "Intel Clear" ))
+	(pt 568 456)
+	(pt 512 456)
+)
+(connector
+	(pt 568 320)
+	(pt 568 296)
+)
+(connector
+	(text "resb" (rect 522 280 542 297)(font "Intel Clear" ))
+	(pt 568 296)
+	(pt 512 296)
+)
+(connector
+	(pt 816 320)
+	(pt 816 296)
+)
+(connector
+	(text "resb" (rect 762 280 782 297)(font "Intel Clear" ))
+	(pt 816 296)
+	(pt 752 296)
+)
+(connector
+	(pt 816 480)
+	(pt 816 456)
+)
+(connector
+	(text "resb" (rect 770 440 790 457)(font "Intel Clear" ))
+	(pt 816 456)
+	(pt 760 456)
+)
+(connector
+	(pt 816 672)
+	(pt 816 656)
+)
+(connector
+	(text "resb" (rect 770 640 790 657)(font "Intel Clear" ))
+	(pt 816 656)
+	(pt 760 656)
+)
+(connector
+	(pt 816 872)
+	(pt 816 848)
+)
+(connector
+	(text "resb" (rect 770 832 790 849)(font "Intel Clear" ))
+	(pt 816 848)
+	(pt 760 848)
+)
+(connector
+	(pt 1056 872)
+	(pt 1056 848)
+)
+(connector
+	(text "resb" (rect 1018 832 1038 849)(font "Intel Clear" ))
+	(pt 1056 848)
+	(pt 1008 848)
+)
+(connector
+	(pt 1056 672)
+	(pt 1056 656)
+)
+(connector
+	(text "resb" (rect 1018 640 1038 657)(font "Intel Clear" ))
+	(pt 1056 656)
+	(pt 1008 656)
+)
+(connector
+	(pt 1056 480)
+	(pt 1056 456)
+)
+(connector
+	(text "resb" (rect 1010 440 1030 457)(font "Intel Clear" ))
+	(pt 1056 456)
+	(pt 1000 456)
+)
+(connector
+	(pt 1056 320)
+	(pt 1056 296)
+)
+(connector
+	(text "resb" (rect 1010 280 1030 297)(font "Intel Clear" ))
+	(pt 1056 296)
+	(pt 1000 296)
 )
 (junction (pt 464 536))
 (junction (pt 464 728))
