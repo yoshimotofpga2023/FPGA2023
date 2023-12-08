@@ -12,30 +12,30 @@
 # 
 # vlog -vlog01compat -work work +incdir+. {TwoBunshu.vo}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:05:05 on Nov 09,2023
+# Start time: 23:04:12 on Dec 07,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." TwoBunshu.vo 
 # -- Compiling module TwoBunshu
 # -- Compiling module hard_block
 # 
 # Top level modules:
 # 	TwoBunshu
-# End time: 01:05:06 on Nov 09,2023, Elapsed time: 0:00:01
+# End time: 23:04:13 on Dec 07,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+/share_desktop/fpga/FPGA2023/kadai1/TwoBunshu/simulation/modelsim {/share_desktop/fpga/FPGA2023/kadai1/TwoBunshu/simulation/modelsim/TwoBunshu.vt}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:05:06 on Nov 09,2023
+# Start time: 23:04:13 on Dec 07,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/share_desktop/fpga/FPGA2023/kadai1/TwoBunshu/simulation/modelsim" /share_desktop/fpga/FPGA2023/kadai1/TwoBunshu/simulation/modelsim/TwoBunshu.vt 
 # -- Compiling module TwoBunshu_vlg_tst
 # 
 # Top level modules:
 # 	TwoBunshu_vlg_tst
-# End time: 01:05:06 on Nov 09,2023, Elapsed time: 0:00:00
+# End time: 23:04:13 on Dec 07,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs="+acc"  test1
 # vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=""+acc"" test1 
-# Start time: 01:05:07 on Nov 09,2023
+# Start time: 23:04:15 on Dec 07,2023
 # ** Error: (vsim-3170) Could not find 'test1'.
 #         Searched libraries:
 #             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
@@ -48,16 +48,16 @@
 # MACRO ./TwoBunshu_run_msim_gate_verilog.do PAUSED at line 12
 vlog -vlog01compat -work work +incdir+/share_desktop/fpga/FPGA2023/kadai1/TwoBunshu/simulation/modelsim ///share_desktop/fpga/FPGA2023/kadai1/TwoBunshu/simulation/modelsim/TwoBunshu.vt
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 01:06:00 on Nov 09,2023
+# Start time: 23:04:28 on Dec 07,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/share_desktop/fpga/FPGA2023/kadai1/TwoBunshu/simulation/modelsim" ///share_desktop/fpga/FPGA2023/kadai1/TwoBunshu/simulation/modelsim/TwoBunshu.vt 
 # ** Error: (vlog-7) Failed to open design unit file "///share_desktop/fpga/FPGA2023/kadai1/TwoBunshu/simulation/modelsim/TwoBunshu.vt" in read mode.
 # No such file or directory. (errno = ENOENT)
-# End time: 01:06:00 on Nov 09,2023, Elapsed time: 0:00:00
+# End time: 23:04:28 on Dec 07,2023, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
 # C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
 vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=\"+acc\" gate_work.TwoBunshu_vlg_tst
 # vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=""+acc"" gate_work.TwoBunshu_vlg_tst 
-# Start time: 01:05:07 on Nov 09,2023
+# Start time: 23:04:15 on Dec 07,2023
 # Loading work.TwoBunshu_vlg_tst
 # Loading work.TwoBunshu
 # Loading work.hard_block
@@ -66,9 +66,10 @@ vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=\"+a
 # Loading cyclone10lp_ver.cyclone10lp_lcell_comb
 # Loading altera_ver.dffeas
 # Loading altera_ver.PRIM_GDFF_LOW
-add wave -position end  sim:/TwoBunshu_vlg_tst/CLK
 add wave -position end  sim:/TwoBunshu_vlg_tst/Q
-run -all
+add wave -position end  sim:/TwoBunshu_vlg_tst/CLK
+run
 # Running testbench
-# End time: 01:06:40 on Nov 09,2023, Elapsed time: 0:01:33
+run -all
+# End time: 07:20:40 on Dec 08,2023, Elapsed time: 8:16:25
 # Errors: 1, Warnings: 0
