@@ -1,12 +1,11 @@
-# NAND回路での論理式シミュレーション②
+# NAND回路での論理式シミュレーション①
 
 ## QuartusPrimeでの論理回路図作成
 
 ## ModelSimでの波形シミュレーション
 * 組み合わせ回路でのシミュレーション
     * シミュレーション結果
-    ![NAND2](../pic_kadai2/NAND2.png "NAND2")
-
+    ![2to10dec](../pic_kadai2/2to10dec2.png "2to10dec")
     * テストベンチ
     ```Verilog HDL
     // Copyright (C) 2020  Intel Corporation. All rights reserved.
@@ -29,63 +28,68 @@
     // suit user's needs .Comments are provided in each section to help the user    
     // fill out necessary details.                                                  
     // *****************************************************************************
-    // Generated on "12/09/2023 00:22:38"
+    // Generated on "12/08/2023 15:24:07"
                                                                                     
-    // Verilog Test Bench template for design : nand_logic2
+    // Verilog Test Bench template for design : BinToDecDecoder
     // 
     // Simulation tool : ModelSim-Altera (Verilog)
     // 
 
     `timescale 1 ps/ 1 ps
-    module nand_logic2_vlg_tst();
+    module BinToDecDecoder_vlg_tst();
     // constants                                           
     // general purpose registers
     reg eachvec;
     // test vector input registers
-    reg A;
-    reg B;
-    reg C;
-    reg D;
+    reg A1;
+    reg A2;
+    reg A3;
+    reg A4;
     // wires                                               
-    wire X;
+    wire Q0;
+    wire Q1;
+    wire Q2;
+    wire Q3;
+    wire Q4;
+    wire Q5;
+    wire Q6;
+    wire Q7;
+    wire Q8;
+    wire Q9;
 
     // assign statements (if any)                          
-    nand_logic2 i1 (
+    BinToDecDecoder i1 (
     // port map - connection between master ports and signals/registers   
-        .A(A),
-        .B(B),
-        .C(C),
-        .D(D),
-        .X(X)
+        .A1(A1),
+        .A2(A2),
+        .A3(A3),
+        .A4(A4),
+        .Q0(Q0),
+        .Q1(Q1),
+        .Q2(Q2),
+        .Q3(Q3),
+        .Q4(Q4),
+        .Q5(Q5),
+        .Q6(Q6),
+        .Q7(Q7),
+        .Q8(Q8),
+        .Q9(Q9)
     );
     initial                                                
     begin                                                  
     // code that executes only once                        
     // insert code here --> begin                          
 
-    #100 A <= 0;B <= 0;C <= 0;D <= 0;
-    #100 A <= 1;B <= 0;C <= 0;D <= 0;
-    #100 A <= 0;B <= 1;C <= 0;D <= 0;
-    #100 A <= 1;B <= 1;C <= 0;D <= 0;
-    #100 A <= 0;B <= 0;C <= 1;D <= 0;
-    #100 A <= 1;B <= 0;C <= 1;D <= 0;
-    #100 A <= 0;B <= 1;C <= 1;D <= 0;
-    #100 A <= 1;B <= 1;C <= 1;D <= 0;
-    #100 A <= 0;B <= 0;C <= 0;D <= 1;
-    #100 A <= 1;B <= 0;C <= 0;D <= 1;
-    #100 A <= 0;B <= 1;C <= 0;D <= 1;
-    #100 A <= 1;B <= 1;C <= 0;D <= 1;
-    #100 A <= 0;B <= 0;C <= 1;D <= 1;
-    #100 A <= 1;B <= 0;C <= 1;D <= 1;
-    #100 A <= 0;B <= 1;C <= 1;D <= 1;
-    #100 A <= 1;B <= 1;C <= 1;D <= 1;
-
-
+    #100 A1 <= 0;A2 <= 0;A3 <= 0;A4 <= 0;     
+    #100 A1 <= 1;A2 <= 0;A3 <= 0;A4 <= 0;
+    #100 A1 <= 0;A2 <= 1;A3 <= 0;A4 <= 0;
+    #100 A1 <= 1;A2 <= 1;A3 <= 0;A4 <= 0;
+    #100 A1 <= 0;A2 <= 0;A3 <= 1;A4 <= 0;
+    #100 A1 <= 1;A2 <= 0;A3 <= 1;A4 <= 0;
+    #100 A1 <= 0;A2 <= 1;A3 <= 1;A4 <= 0;
                                                         
-    // --> end                                                                    
     end                                                    
-                                                
+
     endmodule
-
     ```
-
+    * 5までシミュレーション
