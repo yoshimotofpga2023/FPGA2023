@@ -87,3 +87,5 @@ sim:/BinToDecDecoder_vlg_tst/A2 \
 sim:/BinToDecDecoder_vlg_tst/A1
 run
 run -all
+# End time: 10:51:16 on Dec 11,2023, Elapsed time: 0:21:57
+# Errors: 1, Warnings: 2

@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai3/TenBunshu/simulation/modelsim
+vhard_block
+Z1 !s110 1702260463
+!i10b 1
+!s100 7]>W=VRLO@IkOM7S;O9NL1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`Pzl_AW0GLid0j8A]>M>M3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1702260440
+Z5 8TenBunshu.vo
+Z6 FTenBunshu.vo
+!i122 0
+L0 294 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1702260463.000000
+Z9 !s107 TenBunshu.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|TenBunshu.vo|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+.
+Z13 tCvgOpt 0
+vTenBunshu
+R1
+!i10b 1
+!s100 S]DjDVz2CBzDi07heIMHc3
+R2
+I:@@N=EaE106=D:Oj>[>hg1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 261
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+n@ten@bunshu
+vTenBunshu_vlg_tst
+!s110 1702260465
+!i10b 1
+!s100 ;jZ=4lPahiIYZo^8mbP9^3
+R2
+IVTk=dKm;YD7EQljWD_[ce0
+R3
+R0
+w1702260373
+8/share_desktop/fpga/FPGA2023/kadai3/TenBunshu/simulation/modelsim/TenBunshu.vt
+F/share_desktop/fpga/FPGA2023/kadai3/TenBunshu/simulation/modelsim/TenBunshu.vt
+!i122 1
+L0 29 38
+R7
+r1
+!s85 0
+31
+!s108 1702260465.000000
+!s107 /share_desktop/fpga/FPGA2023/kadai3/TenBunshu/simulation/modelsim/TenBunshu.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/share_desktop/fpga/FPGA2023/kadai3/TenBunshu/simulation/modelsim|/share_desktop/fpga/FPGA2023/kadai3/TenBunshu/simulation/modelsim/TenBunshu.vt|
+!i113 1
+R11
+!s92 -vlog01compat -work work +incdir+/share_desktop/fpga/FPGA2023/kadai3/TenBunshu/simulation/modelsim
+R13
+n@ten@bunshu_vlg_tst

@@ -1,0 +1,85 @@
+# 2分周回路
+
+## QuartusPrimeでの論理回路図作成
+* JKFFでの回路図
+    ![2bunshu](../pic_kadai3/2bunshu01.png "2bunshu")
+
+## ModelSimでの波形シミュレーション
+* 順序回路でのシミュレーション
+    * シミュレーション結果
+    ![2bunshu](../pic_kadai3/2bunshu02.png "NAND1")
+    * テストベンチ
+    ```Verilog HDL
+    // Copyright (C) 2020  Intel Corporation. All rights reserved.
+    // Your use of Intel Corporation's design tools, logic functions 
+    // and other software and tools, and any partner logic 
+    // functions, and any output files from any of the foregoing 
+    // (including device programming or simulation files), and any 
+    // associated documentation or information are expressly subject 
+    // to the terms and conditions of the Intel Program License 
+    // Subscription Agreement, the Intel Quartus Prime License Agreement,
+    // the Intel FPGA IP License Agreement, or other applicable license
+    // agreement, including, without limitation, that your use is for
+    // the sole purpose of programming logic devices manufactured by
+    // Intel and sold by Intel or its authorized distributors.  Please
+    // refer to the applicable agreement for further details, at
+    // https://fpgasoftware.intel.com/eula.
+
+    // *****************************************************************************
+    // This file contains a Verilog test bench template that is freely editable to  
+    // suit user's needs .Comments are provided in each section to help the user    
+    // fill out necessary details.                                                  
+    // *****************************************************************************
+    // Generated on "11/09/2023 00:56:07"
+                                                                                    
+    // Verilog Test Bench template for design : TwoBunshu
+    // 
+    // Simulation tool : ModelSim-Altera (Verilog)
+    // 
+
+    `timescale 1 ps/ 1 ps
+
+    module TwoBunshu_vlg_tst();
+
+    // constants                                           
+    // general purpose registers
+    reg eachvec;
+    // test vector input registers
+    reg CLK;
+    // wires                                               
+    wire Q;
+    parameter STEP = 10;
+
+    // assign statements (if any)                          
+    TwoBunshu i1 (
+    // port map - connection between master ports and signals/registers   
+        .CLK(CLK),
+        .Q(Q)
+    );
+    initial                                                
+    begin                                                  
+    // code that executes only once                        
+    // insert code here --> begin                          
+
+    CLK <= 1;
+                                                        
+    // --> end                                             
+    $display("Running testbench");                       
+    end                                                    
+    always#( STEP/2 )                                                 
+    // optional sensitivity list                           
+    // @(event1 or event2 or .... eventn)                  
+    begin                                                  
+    // code executes for every event on sensitivity list   
+    // insert code here --> begin                          
+
+    CLK <= ~CLK;
+
+    // --> end                                             
+    end                                                    
+    endmodule
+
+    ```
+    * 順序回路はalways文を利用する。
+    * 波形変更周期は#周期で指定する。
+    * シミュレーションでRun Allを実行後すぐにStopボタンを押して無限ループを止める。
