@@ -1,0 +1,72 @@
+# Reading pref.tcl
+# do nand_logic1_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {nand_logic1.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:12:05 on Dec 09,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." nand_logic1.vo 
+# -- Compiling module nand_logic1
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	nand_logic1
+# End time: 00:12:06 on Dec 09,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/share_desktop/fpga/FPGA2023/kadai2/nand_logic1/simulation/modelsim {/share_desktop/fpga/FPGA2023/kadai2/nand_logic1/simulation/modelsim/nand_logic1Test.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:12:07 on Dec 09,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/share_desktop/fpga/FPGA2023/kadai2/nand_logic1/simulation/modelsim" /share_desktop/fpga/FPGA2023/kadai2/nand_logic1/simulation/modelsim/nand_logic1Test.vt 
+# -- Compiling module nand_logic1_vlg_tst
+# 
+# Top level modules:
+# 	nand_logic1_vlg_tst
+# End time: 00:12:08 on Dec 09,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs="+acc"  test1
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=""+acc"" test1 
+# Start time: 00:12:09 on Dec 09,2023
+# ** Error: (vsim-3170) Could not find 'test1'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclone10lp
+#             //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai2/nand_logic1/simulation/modelsim/gate_work
+#             //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai2/nand_logic1/simulation/modelsim/gate_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./nand_logic1_run_msim_gate_verilog.do PAUSED at line 12
+vlog -vlog01compat -work work +incdir+/share_desktop/fpga/FPGA2023/kadai2/nand_logic1/simulation/modelsim ///share_desktop/fpga/FPGA2023/kadai2/nand_logic1/simulation/modelsim/nand_logic1Test.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:13:13 on Dec 09,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/share_desktop/fpga/FPGA2023/kadai2/nand_logic1/simulation/modelsim" ///share_desktop/fpga/FPGA2023/kadai2/nand_logic1/simulation/modelsim/nand_logic1Test.vt 
+# ** Error: (vlog-7) Failed to open design unit file "///share_desktop/fpga/FPGA2023/kadai2/nand_logic1/simulation/modelsim/nand_logic1Test.vt" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 00:13:13 on Dec 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=\"+acc\" gate_work.nand_logic1_vlg_tst
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=""+acc"" gate_work.nand_logic1_vlg_tst 
+# Start time: 00:12:09 on Dec 09,2023
+# Loading work.nand_logic1_vlg_tst
+# Loading work.nand_logic1
+# Loading work.hard_block
+# Loading cyclone10lp_ver.cyclone10lp_io_obuf
+# Loading cyclone10lp_ver.cyclone10lp_io_ibuf
+# Loading cyclone10lp_ver.cyclone10lp_lcell_comb
+add wave -position end  sim:/nand_logic1_vlg_tst/B
+add wave -position end  sim:/nand_logic1_vlg_tst/A
+add wave -position end  sim:/nand_logic1_vlg_tst/X
+run -all
+# End time: 00:15:08 on Dec 09,2023, Elapsed time: 0:02:59
+# Errors: 1, Warnings: 0

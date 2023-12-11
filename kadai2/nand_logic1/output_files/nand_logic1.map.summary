@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Dec 09 00:10:36 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : nand_logic1
+Top-level Entity Name : nand_logic1
+Family : Cyclone 10 LP
+Total logic elements : 1
+    Total combinational functions : 1
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

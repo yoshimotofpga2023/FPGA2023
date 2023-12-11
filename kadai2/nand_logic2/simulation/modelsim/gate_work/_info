@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai2/nand_logic2/simulation/modelsim
+vhard_block
+Z1 !s110 1702049280
+!i10b 1
+!s100 b1f7]<DH61>WETbWAfTKY1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?DPUim`1nh;W?fMLYWak=2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1702049255
+Z5 8nand_logic2.vo
+Z6 Fnand_logic2.vo
+!i122 0
+L0 150 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1702049280.000000
+Z9 !s107 nand_logic2.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|nand_logic2.vo|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+.
+Z13 tCvgOpt 0
+vnand_logic2
+R1
+!i10b 1
+!s100 0HeJCn^`YBid6E`A6O1ah1
+R2
+IG1HY4I:E:g``SP_B><40?0
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 117
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vnand_logic2_vlg_tst
+!s110 1702049282
+!i10b 1
+!s100 ZPU:a?XZHoX9iCj^cS:TI1
+R2
+IaDnRHUoH[fhf1L?WnJ`IY0
+R3
+R0
+w1702049155
+8/share_desktop/fpga/FPGA2023/kadai2/nand_logic2/simulation/modelsim/nand_logic2_test.vt
+F/share_desktop/fpga/FPGA2023/kadai2/nand_logic2/simulation/modelsim/nand_logic2_test.vt
+!i122 1
+L0 29 49
+R7
+r1
+!s85 0
+31
+!s108 1702049281.000000
+!s107 /share_desktop/fpga/FPGA2023/kadai2/nand_logic2/simulation/modelsim/nand_logic2_test.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/share_desktop/fpga/FPGA2023/kadai2/nand_logic2/simulation/modelsim|/share_desktop/fpga/FPGA2023/kadai2/nand_logic2/simulation/modelsim/nand_logic2_test.vt|
+!i113 1
+R11
+!s92 -vlog01compat -work work +incdir+/share_desktop/fpga/FPGA2023/kadai2/nand_logic2/simulation/modelsim
+R13

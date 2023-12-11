@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai3/TenBunshu/TenBunshu.bdf
+source_file = 1, //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai3/TenBunshu/db/TenBunshu.cbx.xml
+design_name = TenBunshu
+instance = comp, \Q~output , Q~output, TenBunshu, 1
+instance = comp, \CLK~input , CLK~input, TenBunshu, 1
+instance = comp, \CLK~inputclkctrl , CLK~inputclkctrl, TenBunshu, 1
+instance = comp, \inst~0 , inst~0, TenBunshu, 1
+instance = comp, \inst1~feeder , inst1~feeder, TenBunshu, 1
+instance = comp, \inst2~feeder , inst2~feeder, TenBunshu, 1
+instance = comp, \inst3~feeder , inst3~feeder, TenBunshu, 1
+instance = comp, \inst4~feeder , inst4~feeder, TenBunshu, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

@@ -1,0 +1,7 @@
+|nand_logic1
+X <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+B => inst1.IN0
+A => inst.IN0
+A => inst.IN1
+
+
