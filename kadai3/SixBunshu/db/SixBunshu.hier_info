@@ -1,0 +1,7 @@
+|SixBunshu
+Q <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+CLK => inst1.CLK
+CLK => inst4.CLK
+
+

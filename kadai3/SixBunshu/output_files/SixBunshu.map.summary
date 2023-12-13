@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Dec 14 01:12:44 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : SixBunshu
+Top-level Entity Name : SixBunshu
+Family : Cyclone 10 LP
+Total logic elements : 3
+    Total combinational functions : 1
+    Dedicated logic registers : 3
+Total registers : 3
+Total pins : 2
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

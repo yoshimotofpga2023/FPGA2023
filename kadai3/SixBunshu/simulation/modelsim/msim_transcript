@@ -1,0 +1,79 @@
+# Reading pref.tcl
+# do SixBunshu_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {SixBunshu.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:13:26 on Dec 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." SixBunshu.vo 
+# -- Compiling module SixBunshu
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	SixBunshu
+# End time: 01:13:27 on Dec 14,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/share_desktop/fpga/FPGA2023/kadai3/SixBunshu/simulation/modelsim {/share_desktop/fpga/FPGA2023/kadai3/SixBunshu/simulation/modelsim/SixBunshu.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:13:28 on Dec 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/share_desktop/fpga/FPGA2023/kadai3/SixBunshu/simulation/modelsim" /share_desktop/fpga/FPGA2023/kadai3/SixBunshu/simulation/modelsim/SixBunshu.vt 
+# -- Compiling module SixBunshu_vlg_tst
+# 
+# Top level modules:
+# 	SixBunshu_vlg_tst
+# End time: 01:13:29 on Dec 14,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs="+acc"  test
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=""+acc"" test 
+# Start time: 01:13:29 on Dec 14,2023
+# ** Error: (vsim-3170) Could not find 'test'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclone10lp
+#             //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai3/SixBunshu/simulation/modelsim/gate_work
+#             //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai3/SixBunshu/simulation/modelsim/gate_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./SixBunshu_run_msim_gate_verilog.do PAUSED at line 12
+vlog -vlog01compat -work work +incdir+/share_desktop/fpga/FPGA2023/kadai3/SixBunshu/simulation/modelsim ///share_desktop/fpga/FPGA2023/kadai3/SixBunshu/simulation/modelsim/SixBunshu.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:13:45 on Dec 14,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/share_desktop/fpga/FPGA2023/kadai3/SixBunshu/simulation/modelsim" ///share_desktop/fpga/FPGA2023/kadai3/SixBunshu/simulation/modelsim/SixBunshu.vt 
+# ** Error: (vlog-7) Failed to open design unit file "///share_desktop/fpga/FPGA2023/kadai3/SixBunshu/simulation/modelsim/SixBunshu.vt" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 01:13:45 on Dec 14,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=\"+acc\" gate_work.SixBunshu_vlg_tst
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=""+acc"" gate_work.SixBunshu_vlg_tst 
+# Start time: 01:13:29 on Dec 14,2023
+# Loading work.SixBunshu_vlg_tst
+# Loading work.SixBunshu
+# Loading work.hard_block
+# Loading cyclone10lp_ver.cyclone10lp_io_obuf
+# Loading cyclone10lp_ver.cyclone10lp_io_ibuf
+# Loading cyclone10lp_ver.cyclone10lp_clkctrl
+# Loading cyclone10lp_ver.cyclone10lp_mux41
+# Loading cyclone10lp_ver.cyclone10lp_ena_reg
+# Loading cyclone10lp_ver.cyclone10lp_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+add wave -position insertpoint  \
+sim:/SixBunshu_vlg_tst/CLK
+add wave -position insertpoint  \
+sim:/SixBunshu_vlg_tst/Q
+run -all
+# Running testbench
+# End time: 01:15:10 on Dec 14,2023, Elapsed time: 0:01:41
+# Errors: 1, Warnings: 0

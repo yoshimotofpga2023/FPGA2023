@@ -1,0 +1,129 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "undef_led",
+					"strict" : false
+				},
+				{
+					"name" : "lockout_led",
+					"strict" : false
+				},
+				{
+					"name" : "seg1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tenkey[9]",
+					"strict" : false
+				},
+				{
+					"name" : "tenkey[8]",
+					"strict" : false
+				},
+				{
+					"name" : "tenkey[0]",
+					"strict" : false
+				},
+				{
+					"name" : "resb",
+					"strict" : false
+				},
+				{
+					"name" : "tenkey[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tenkey[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tenkey[7]",
+					"strict" : false
+				},
+				{
+					"name" : "tenkey[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tenkey[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tenkey[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tenkey[1]",
+					"strict" : false
+				},
+				{
+					"name" : "memb",
+					"strict" : false
+				},
+				{
+					"name" : "lockb",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

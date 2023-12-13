@@ -1,0 +1,74 @@
+# Reading pref.tcl
+# do DecToSegModule_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {DecToSegModule.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:16:37 on Dec 13,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." DecToSegModule.vo 
+# -- Compiling module DecToSegModule
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	DecToSegModule
+# End time: 16:16:37 on Dec 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim {C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim/DecToSegModule.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:16:38 on Dec 13,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim" C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim/DecToSegModule.vt 
+# -- Compiling module DecToSegModule_vlg_tst
+# 
+# Top level modules:
+# 	DecToSegModule_vlg_tst
+# End time: 16:16:39 on Dec 13,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs="+acc"  test1
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=""+acc"" test1 
+# Start time: 16:16:39 on Dec 13,2023
+# ** Error: (vsim-3170) Could not find 'test1'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cyclone10lp
+#             C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim/gate_work
+#             C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim/gate_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./DecToSegModule_run_msim_gate_verilog.do PAUSED at line 12
+vlog -vlog01compat -work work +incdir+C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim/DecToSegModule.vt
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:16:56 on Dec 13,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim" C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim/DecToSegModule.vt 
+# -- Compiling module DecToSegModule_vlg_tst
+# 
+# Top level modules:
+# 	DecToSegModule_vlg_tst
+# End time: 16:16:56 on Dec 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=\"+acc\" gate_work.DecToSegModule_vlg_tst
+# vsim -t 1ps -L altera_ver -L cyclone10lp_ver -L gate_work -L work -voptargs=""+acc"" gate_work.DecToSegModule_vlg_tst 
+# Start time: 16:16:39 on Dec 13,2023
+# Loading work.DecToSegModule_vlg_tst
+# Loading work.DecToSegModule
+# Loading work.hard_block
+# Loading cyclone10lp_ver.cyclone10lp_io_obuf
+# Loading cyclone10lp_ver.cyclone10lp_io_ibuf
+# Loading cyclone10lp_ver.cyclone10lp_lcell_comb
+add wave -position insertpoint  \
+sim:/DecToSegModule_vlg_tst/eachvec \
+sim:/DecToSegModule_vlg_tst/tenkey \
+sim:/DecToSegModule_vlg_tst/seg
+run -all
+# End time: 16:39:56 on Dec 13,2023, Elapsed time: 0:23:17
+# Errors: 1, Warnings: 0

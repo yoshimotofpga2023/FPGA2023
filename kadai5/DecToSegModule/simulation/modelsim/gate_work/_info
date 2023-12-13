@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim
+vDecToSegModule
+Z1 !s110 1702451797
+!i10b 1
+!s100 W_b<[92jF`[88b@L:BP3I1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9OI2[Xl;OM:SWNCMm=;MG2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1702451707
+Z5 8DecToSegModule.vo
+Z6 FDecToSegModule.vo
+!i122 0
+L0 32 573
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1702451797.000000
+Z9 !s107 DecToSegModule.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|DecToSegModule.vo|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+.
+Z13 tCvgOpt 0
+n@dec@to@seg@module
+vDecToSegModule_vlg_tst
+!s110 1702451816
+!i10b 1
+!s100 >IGdmYYdiEN5dUF9Fz`@W0
+R2
+I@Y^Fc>FFaF3CoF[WXASKY2
+R3
+R0
+w1702451648
+8C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim/DecToSegModule.vt
+FC:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim/DecToSegModule.vt
+!i122 2
+L0 29 30
+R7
+r1
+!s85 0
+31
+!s108 1702451816.000000
+!s107 C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim/DecToSegModule.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim|C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim/DecToSegModule.vt|
+!i113 1
+R11
+!s92 -vlog01compat -work work +incdir+C:/Users/User/Documents/work/FPGA/FPGA2023/kadai5/DecToSegModule/simulation/modelsim
+R13
+n@dec@to@seg@module_vlg_tst
+vhard_block
+R1
+!i10b 1
+!s100 O>_b_@n]V1L[X<K;P;O^k3
+R2
+In[lXQz5b]GK1RTh[PJD:I0
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 606 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13

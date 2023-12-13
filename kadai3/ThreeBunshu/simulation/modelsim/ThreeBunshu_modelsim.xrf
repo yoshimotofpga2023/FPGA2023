@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai3/ThreeBunshu/ThreeBunshu.bdf
+source_file = 1, //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai3/ThreeBunshu/db/ThreeBunshu.cbx.xml
+design_name = ThreeBunshu
+instance = comp, \Q~output , Q~output, ThreeBunshu, 1
+instance = comp, \CLK~input , CLK~input, ThreeBunshu, 1
+instance = comp, \CLK~inputclkctrl , CLK~inputclkctrl, ThreeBunshu, 1
+instance = comp, \inst~0 , inst~0, ThreeBunshu, 1
+instance = comp, \inst1~feeder , inst1~feeder, ThreeBunshu, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

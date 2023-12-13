@@ -1,0 +1,73 @@
+|DecToSegModule
+seg[0] <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+tenkey[0] => DecToBinEncoder:inst1.t0
+tenkey[1] => DecToBinEncoder:inst1.t1
+tenkey[2] => DecToBinEncoder:inst1.t2
+tenkey[3] => DecToBinEncoder:inst1.t3
+tenkey[4] => DecToBinEncoder:inst1.t4
+tenkey[5] => DecToBinEncoder:inst1.t5
+tenkey[6] => DecToBinEncoder:inst1.t6
+tenkey[7] => DecToBinEncoder:inst1.t7
+tenkey[8] => DecToBinEncoder:inst1.t8
+tenkey[9] => DecToBinEncoder:inst1.t9
+
+
+|DecToSegModule|BinToSegDecoder:inst
+d <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+AIN => inst4.IN0
+BIN => inst5.IN0
+BIN => inst11.IN0
+BIN => inst8.IN0
+BIN => inst99.IN0
+BIN => inst9.IN0
+BIN => inst12.IN0
+CIN => inst6.IN0
+CIN => inst11.IN1
+CIN => inst10.IN1
+CIN => inst99.IN1
+CIN => inst14.IN0
+CIN => inst15.IN1
+DIN => inst3.IN3
+DIN => inst11.IN2
+DIN => inst7.IN0
+DIN => inst9.IN2
+DIN => inst20.IN0
+DIN => inst14.IN1
+DIN => inst13.IN2
+c <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+a <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+b <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DecToSegModule|DecToBinEncoder:inst1
+Abin <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+t7 => inst2.IN0
+t7 => inst41.IN0
+t7 => inst81.IN2
+t5 => inst2.IN1
+t5 => inst81.IN1
+t4 => inst2.IN2
+t6 => inst2.IN3
+t6 => inst41.IN3
+t8 => inst.IN0
+t9 => inst.IN1
+t9 => inst81.IN0
+t3 => inst41.IN1
+t3 => inst81.IN3
+t2 => inst41.IN2
+t0 => inst1.IN4
+t1 => inst81.IN5
+Bbin <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+Cbin <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Dbin <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
