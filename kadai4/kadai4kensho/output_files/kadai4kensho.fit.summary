@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Dec 15 23:29:25 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : kadai4kensho
+Top-level Entity Name : kadai4kensho
+Family : Cyclone 10 LP
+Device : 10CL025YU256I7G
+Timing Models : Final
+Total logic elements : 53 / 24,624 ( < 1 % )
+    Total combinational functions : 13 / 24,624 ( < 1 % )
+    Dedicated logic registers : 43 / 24,624 ( < 1 % )
+Total registers : 43
+Total pins : 17 / 151 ( 11 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

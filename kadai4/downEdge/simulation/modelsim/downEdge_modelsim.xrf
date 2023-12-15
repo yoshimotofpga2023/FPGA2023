@@ -1,6 +1,6 @@
 vendor_name = ModelSim
-source_file = 1, //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai4/downEdge/downEdge.bdf
-source_file = 1, //vmware-host/Shared Folders/share_desktop/fpga/FPGA2023/kadai4/downEdge/db/downEdge.cbx.xml
+source_file = 1, C:/Users/User/Documents/work/FPGA/FPGA2023/kadai4/downEdge/downEdge.bdf
+source_file = 1, C:/Users/User/Documents/work/FPGA/FPGA2023/kadai4/downEdge/db/downEdge.cbx.xml
 design_name = downEdge
 instance = comp, \Q2~output , Q2~output, downEdge, 1
 instance = comp, \Q1~output , Q1~output, downEdge, 1

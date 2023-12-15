@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/User/Documents/work/FPGA/FPGA2023/kadai4/SixBushu/SixBushu.bdf
+source_file = 1, C:/Users/User/Documents/work/FPGA/FPGA2023/kadai4/SixBushu/db/SixBushu.cbx.xml
+design_name = SixBushu
+instance = comp, \Q~output , Q~output, SixBushu, 1
+instance = comp, \CLK~input , CLK~input, SixBushu, 1
+instance = comp, \CLK~inputclkctrl , CLK~inputclkctrl, SixBushu, 1
+instance = comp, \inst~0 , inst~0, SixBushu, 1
+instance = comp, \inst1~feeder , inst1~feeder, SixBushu, 1
+instance = comp, \inst2~feeder , inst2~feeder, SixBushu, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

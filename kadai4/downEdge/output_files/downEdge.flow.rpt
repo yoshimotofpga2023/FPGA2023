@@ -1,5 +1,5 @@
 Flow report for downEdge
-Fri Nov 10 01:26:19 2023
+Fri Dec 15 18:01:13 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Nov 10 01:26:19 2023       ;
+; Flow Status                        ; Successful - Fri Dec 15 18:01:13 2023       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; downEdge                                    ;
 ; Top-level Entity Name              ; downEdge                                    ;
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/10/2023 01:25:38 ;
+; Start date & time ; 12/15/2023 17:59:42 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; downEdge            ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 52238938451.169954713703216            ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 167304654621919.170263078104504        ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; test1                             ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -108,12 +108,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4731 MB             ; 00:00:27                           ;
-; Fitter               ; 00:00:10     ; 1.0                     ; 5231 MB             ; 00:00:09                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 4694 MB             ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 4758 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4652 MB             ; 00:00:02                           ;
-; Total                ; 00:00:36     ; --                      ; --                  ; 00:00:43                           ;
+; Analysis & Synthesis ; 00:00:28     ; 1.0                     ; 4714 MB             ; 00:00:38                           ;
+; Fitter               ; 00:00:16     ; 1.0                     ; 5251 MB             ; 00:00:12                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4684 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 4746 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
+; Total                ; 00:00:53     ; --                      ; --                  ; 00:00:57                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -127,6 +128,7 @@ https://fpgasoftware.intel.com/eula.
 ; Assembler            ; DESKTOP-H3QJ441  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; DESKTOP-H3QJ441  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-H3QJ441  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-H3QJ441  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -138,6 +140,7 @@ quartus_fit --read_settings_files=off --write_settings_files=off downEdge -c dow
 quartus_asm --read_settings_files=off --write_settings_files=off downEdge -c downEdge
 quartus_sta downEdge -c downEdge
 quartus_eda --read_settings_files=off --write_settings_files=off downEdge -c downEdge
+quartus_eda --read_settings_files=on --write_settings_files=off downEdge -c downEdge --gen_testbench
 
 
 

@@ -1,8 +1,8 @@
-# 電子ロック(未完成)
+# 2進-7セグデコーダ
 
 ## QuartusPrimeでの論理回路図作成
 * 全体図
-    ![top](../pic_denshilock/denshi_top01.png "top")
+    ![top](../pic_DeTo7Seg/ "top")
 
 ## ModelSimでの波形シミュレーション
 * テストベンチ

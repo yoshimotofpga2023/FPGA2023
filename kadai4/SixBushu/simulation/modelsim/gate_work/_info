@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Documents/work/FPGA/FPGA2023/kadai4/SixBushu/simulation/modelsim
+vhard_block
+Z1 !s110 1702630258
+!i10b 1
+!s100 gZlS7=nGmVcU10B0H8bD@1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IG5UbE]46z[T3of;9b[a`J1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1702628763
+Z5 8SixBushu.vo
+Z6 FSixBushu.vo
+!i122 0
+L0 218 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1702630256.000000
+Z9 !s107 SixBushu.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|SixBushu.vo|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+.
+Z13 tCvgOpt 0
+vSixBushu
+R1
+!i10b 1
+!s100 QQ3];<Noo2XVH]<N1f4TI1
+R2
+I;0de;TGE>b2MHhon>Sm793
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 185
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+n@six@bushu
+vSixBushu_vlg_tst
+!s110 1702630268
+!i10b 1
+!s100 6N8IU[<MSX0cVbHXzHK8;1
+R2
+IkX6F2mVOJEz01>YLjzf^j1
+R3
+R0
+w1702628702
+8C:/Users/User/Documents/work/FPGA/FPGA2023/kadai4/SixBushu/simulation/modelsim/SixBushu.vt
+FC:/Users/User/Documents/work/FPGA/FPGA2023/kadai4/SixBushu/simulation/modelsim/SixBushu.vt
+!i122 2
+L0 29 33
+R7
+r1
+!s85 0
+31
+!s108 1702630267.000000
+!s107 C:/Users/User/Documents/work/FPGA/FPGA2023/kadai4/SixBushu/simulation/modelsim/SixBushu.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Documents/work/FPGA/FPGA2023/kadai4/SixBushu/simulation/modelsim|C:/Users/User/Documents/work/FPGA/FPGA2023/kadai4/SixBushu/simulation/modelsim/SixBushu.vt|
+!i113 1
+R11
+!s92 -vlog01compat -work work +incdir+C:/Users/User/Documents/work/FPGA/FPGA2023/kadai4/SixBushu/simulation/modelsim
+R13
+n@six@bushu_vlg_tst
