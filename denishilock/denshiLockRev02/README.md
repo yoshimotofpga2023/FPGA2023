@@ -18,4 +18,10 @@
 
 ## ピン配置・GPIO対応表
 
+### Cyclone10
+
 ![2bunshu](../pic_denshilock/denshi_pinAssign01.png "pinAssign")
+
+### MAX10(DE10-Lite)
+
+![2bunshu](../pic_denshilock/MAX10pinassign2024.png "pinAssign")

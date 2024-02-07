@@ -10,3 +10,21 @@ QuartusPrimeから直接連携できる、ModelSimというシミュレーショ
     * 波形ソフトはテストベンチが必要（Verilog HDLで検証）
     * テストベンチはQuartusで作成可能。テキストエディタもQuartusPrimeで起動可能。
 * ボードの変更により書き込みソフトをQuartusPrimeに組み込まれているソフト(Programmer)を使用する。  
+
+# 最終成果物（電子ロック）
+
+## 回路図例
+
+![2bunshu](./denishilock/pic_denshilock/denshi_topRev2.png "pinAssign")
+
+# 実験用ボードのピン配置
+
+## ピン配置・GPIO対応表
+
+### Cyclone10
+
+![2bunshu](./denishilock//pic_denshilock/denshi_pinAssign01.png "pinAssign")
+
+### MAX10(DE10-Lite)
+
+![2bunshu](./denishilock//pic_denshilock/MAX10pinassign2024.png "pinAssign")
