@@ -23,7 +23,7 @@ QuartusPrimeから直接連携できる、ModelSimというシミュレーショ
 
 ### Cyclone10
 
-![2bunshu](./denishilock//pic_denshilock/denshi_pinAssign01.png "pinAssign")
+![2bunshu](./denishilock//pic_denshilock/denshi_pinAssign02.png "pinAssign")
 
 ### MAX10(DE10-Lite)
 
