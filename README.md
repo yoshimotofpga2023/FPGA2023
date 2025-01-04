@@ -6,10 +6,13 @@
 ## 現実験との相違点
 * FPGAボードをCyclone ⅡからCyclone 10LPへ変更
 * Quartusのバージョンの違いにより波形シミュレーションソフトが組み込まれていないので
-QuartusPrimeから直接連携できる、ModelSimというシミュレーションソフトを使用する。
+QuartusPrimeから直接連携できる、ModelSim(Questa)というシミュレーションソフトを使用する。
     * 波形ソフトはテストベンチが必要（Verilog HDLで検証）
-    * テストベンチはQuartusで作成可能。テキストエディタもQuartusPrimeで起動可能。
+    * テストベンチはQuartus機能で作成可能。テキストエディタもQuartusPrimeで起動可能。
+    * ModelSimで課題範囲内でのシミュレーションの設定（クロック等）可能。
 * ボードの変更により書き込みソフトをQuartusPrimeに組み込まれているソフト(Programmer)を使用する。  
+
+* Quetaをセットアップする際は、インテル社のHPでアカウント作成とライセンスファイル取得等作業が必要。
 
 # 最終成果物（電子ロック）
 

@@ -8,3 +8,16 @@
 * 暗証番号レジスタ
 * 番号一致検出レジスタ
 * ステートマシン 
+
+## シミュレーション
+* シミュレーション結果：番号レジスタ
+![bangoResSim](./pic_denshilock/bango01.png "bangoResSim")
+
+* シミュレーション結果：番号一致検出回路
+![detectSim](./pic_denshilock/detect01.png "detectSim")
+
+* シミュレーション結果：ステートマシン
+![stateSim](./pic_denshilock/statemachine01.png "stateSim")
+
+    * Tips:
+    シミュレーション実行時に、シミュレーション時間を細かく区切って、force入力を組み合わせて入力する。（例えば、シミュレーション時間を200psとする。まずは、UNDEFの状態でSW1にforce入力として1を設定する。これでシミュレーションを実行すると状態遷移が起こり、LOCKOFF状態となる。つぎのシミュレーション実行で、SW1=0、SW2=1でそれぞれforce入力し、次の状態遷移を確かめる。以降、ステートマシンの状態遷移を同じように確認する。）
